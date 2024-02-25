@@ -1,0 +1,15 @@
+1.- instalación: npm init -y
+2.- npm i json-server@0.17.4 
+3.- Modificar en package.json script "start": "json-server --watch db.json"
+
+4.- npx json-server --watch db.json
+
+5.- se puede acceder desde la web: 
+..localhost:3000/users
+..localhost:3000/users/1
+..localhost:3000/roleaccess
+..localhost:3000/customer
+..localhost:3000/users?username=Bret
+
+
+6.- Podria añadir utilizar los métodos get, post, put, delete desde, por ejemplo, Postman
